@@ -1,0 +1,28 @@
+<!ELEMENT seriousGamesCatalog (genres, alluvialAreas, creators?, games)>
+    <!ELEMENT genres (genre+)>
+        <!ELEMENT genre (name, description)>
+            <!ATTLIST genre id ID #REQUIRED>
+            <!ELEMENT name (#PCDATA)>
+            <!ELEMENT description (#PCDATA)>
+    <!ELEMENT alluvialAreas (area+)>
+        <!ELEMENT area (name, description)>
+            <!ATTLIST area id ID #REQUIRED>
+    <!ELEMENT creators (creator+)>
+        <!ELEMENT creator (name, description, logo?)>
+            <!ATTLIST creator id ID #REQUIRED>
+            <!ELEMENT logo EMPTY>
+                <!ATTLIST logo src ENTITY #REQUIRED>
+    <!ELEMENT games (game+)>
+        <!ELEMENT game (title, description, releaseDate, graphics)>
+            <!ATTLIST game id ID #REQUIRED>
+            <!ATTLIST game genreRef IDREF #REQUIRED>
+            <!ATTLIST game alluvialAreaRef IDREF #REQUIRED>
+            <!ATTLIST game creatorRef IDREF #REQUIRED>
+            <!ELEMENT title (#PCDATA)>
+            <!ELEMENT releaseDate (#PCDATA)>
+            <!ELEMENT graphics (coverImage, screenshots?)>
+                <!ELEMENT coverImage EMPTY>
+                    <!ATTLIST coverImage src ENTITY #REQUIRED>
+                <!ELEMENT screenshots (screenshot*)>
+                    <!ELEMENT screenshot EMPTY>
+                        <!ATTLIST screenshot src ENTITY #REQUIRED>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="seriousGames.xsl"?>
+<!DOCTYPE seriousGamesCatalog SYSTEM "seriousGames.dtd" [
+    <!NOTATION JPG SYSTEM "image/jpeg">
+    <!ENTITY reMission2Cover SYSTEM "images/re-mission2_cover.jpg" NDATA JPG>
+    <!ENTITY reMission2Screenshot1 SYSTEM "images/re-mission2_screeshot.jpg" NDATA JPG>
+    <!ENTITY reMission2Screenshot2 SYSTEM "images/re-mission2_screeshot2.jpg" NDATA JPG>
+
+    <!ENTITY simCityCover SYSTEM "images/simcity_cover.jpg" NDATA JPG>
+    <!ENTITY simCityScreenshot1 SYSTEM "images/simcity_screenshot1.jpg" NDATA JPG>
+    <!ENTITY simCityScreenshot2 SYSTEM "images/simcity_screenshot2.jpg" NDATA JPG>
+
+    <!ENTITY folditCover SYSTEM "images/foldit_cover.jpg" NDATA JPG>
+    <!ENTITY folditScreenshot1 SYSTEM "images/foldit_screenshot1.jpg" NDATA JPG>
+    <!ENTITY folditScreenshot2 SYSTEM "images/foldit_screenshot2.jpg" NDATA JPG>
+
+    <!ENTITY factorioCover SYSTEM "images/factorio_cover.jpg" NDATA JPG>
+    <!ENTITY factorioScreenshot1 SYSTEM "images/factorio_screenshot1.jpg" NDATA JPG>
+    <!ENTITY factorioScreenshot2 SYSTEM "images/factorio_screenshot2.jpg" NDATA JPG>
+
+    <!ENTITY minecraftCover SYSTEM "images/minecraft_cover.jpg" NDATA JPG>
+    <!ENTITY minecraftScreenshot1 SYSTEM "images/minecraft_screenshot1.jpg" NDATA JPG>
+    <!ENTITY minecraftScreenshot2 SYSTEM "images/minecraft_screenshot2.jpg" NDATA JPG>
+
+    <!ENTITY flightSimulatorCover SYSTEM "images/microsoft_flight_simulator_cover.jpg" NDATA JPG>
+    <!ENTITY flightSimulatorScreenshot1 SYSTEM "images/microsoft_flight_simulator_screenshot1.jpg" NDATA JPG>
+    <!ENTITY flightSimulatorScreenshot2 SYSTEM "images/microsoft_flight_simulator_screenshot2.jpg" NDATA JPG>
+
+    <!ENTITY dragonBoxElementsCover SYSTEM "images/dragonBox_cover.jpg" NDATA JPG>
+    <!ENTITY dragonBoxElementsScreenshot1 SYSTEM "images/dragonBox_screenshot1.jpg" NDATA JPG>
+    <!ENTITY dragonBoxElementsScreenshot2 SYSTEM "images/dragonBox_screenshot2.jpg" NDATA JPG>
+
+    <!ENTITY hopelabLogo SYSTEM "images/hopelab.jpg" NDATA JPG>
+    <!ENTITY glasslabLogo SYSTEM "images/glasslabLogo.jpg" NDATA JPG>
+    <!ENTITY uwCseLogo SYSTEM "images/uwCse_logo.jpg" NDATA JPG>
+    <!ENTITY wubeLogo SYSTEM "images/wube_logo.jpg" NDATA JPG>
+    <!ENTITY mojangLogo SYSTEM "images/mojang_logo.jpg" NDATA JPG>
+    <!ENTITY microsoftLogo SYSTEM "images/microsoft_logo.jpg" NDATA JPG>
+    <!ENTITY dragonBoxLogo SYSTEM "images/kahoot_dragonbox_logo.jpg" NDATA JPG>
+]>
+
+<seriousGamesCatalog>
+    <genres>
+        <genre id="gamesForHealth">
+            <name>Games for Health</name>
+            <description>
+                Serious games for health (or “health games”) are games with a focus on health care, physical and mental fitness. In most cases,
+                they are not commercial products but offered free by health care institutions like insurances, medical institutes, or foundations.
+            </description>
+        </genre>
+
+        <genre id="advergames">
+            <name>Advergames</name>
+            <description>
+                Games created for advertising or marketing purposes. An advertgame is a game that includes advert references designed to promote
+                a given brand. This kind of medium, based on entertainment, makes it possible to capture prospects by means other than traditional media.
+            </description>
+        </genre>
+
+        <genre id="gamesForTraining">
+            <name>Games for Training</name>
+            <description>
+                Games for Training are a category of serious games explicitly developed to facilitate learning, skill development, and
+                training in diverse domains. These games go beyond traditional educational methods by incorporating interactive and immersive elements,
+                making the learning experience more engaging and effective.
+            </description>
+        </genre>
+
+        <genre id="gamesForEducation">
+            <name>Games for education</name>
+            <description>
+                Serious Games for Education form a genre of interactive digital experiences designed specifically for educational purposes.
+                Unlike traditional educational methods, these games leverage technology and game mechanics to engage learners in a dynamic and
+                immersive learning environment. The primary goal is to make learning enjoyable, fostering a deeper understanding of academic
+                subjects and practical skills.
+            </description>
+        </genre>
+
+        <genre id="gamesForScienceAndResearch">
+            <name>Games for science and research</name>
+            <description>
+                Serious Games for Science and Research represent a genre of digital games designed to support scientific exploration,
+                research, and educational initiatives within various scientific disciplines.
+                These games are developed to engage players in scientific concepts, experiments, and research processes, fostering a deeper
+                understanding of complex subjects.
+            </description>
+        </genre>
+
+        <genre id="gamesForProduction">
+            <name>Games for production</name>
+            <description>
+                Serious Games for Production are digital simulations or interactive experiences designed to enhance productivity, efficiency,
+                and safety within industrial and production environments. These games are tailored for workers, operators, and managers involved in
+                manufacturing, assembly, logistics, and other production-related activities.
+                The primary objectives include skill development, process optimization, and fostering a culture of continuous improvement.
+            </description>
+        </genre>
+
+        <genre id="gamesAsWork ">
+            <name>Games as work</name>
+            <description>
+                Serious Games for Work are interactive digital experiences created to address specific professional development needs within
+                a workplace.
+                These games aim to enhance skills, improve job performance, and foster a positive work environment.
+                Tailored to various industries and job roles, they provide an engaging and effective means of training and skill development.
+            </description>
+        </genre>
+    </genres>
+
+    <alluvialAreas>
+        <area id="governmentNgo">
+            <name>Government and NGO</name>
+            <description>
+                Games used in Public sector and non-governmental organizations.
+            </description>
+        </area>
+
+        <area id="defense">
+            <name>Defense</name>
+            <description>
+                Games used for defense and military training.
+            </description>
+        </area>
+
+        <area id="healthcare">
+            <name>Healthcare</name>
+            <description>
+                Games used in the healthcare sector for training or therapeutic purposes.
+            </description>
+        </area>
+
+        <area id="marketingCommunication">
+            <name>Marketing and Communication</name>
+            <description>
+                Games focused on promoting and advancing marketing and communication strategies.
+                This includes simulations for advertising, public relations, and strategic communication campaigns.
+            </description>
+        </area>
+
+        <area id="education">
+            <name>Education</name>
+            <description>
+                Games designed for educational purposes, spanning a wide range of subjects and skills. These games aim to enhance
+                learning experiences, engage students, and provide effective educational tools for various levels of education.
+            </description>
+        </area>
+
+        <area id="corporate">
+            <name>Corporate</name>
+            <description>
+                Games tailored for corporate training, team building, and professional development.
+                These games aim to improve workplace skills, enhance collaboration, and address specific needs within the corporate environment.
+            </description>
+        </area>
+
+        <area id="industry">
+            <name>Industry</name>
+            <description>
+                Games developed for industrial and manufacturing sectors. These games may focus on training for specific industry processes,
+                safety protocols, and operational procedures to enhance efficiency and reduce risks in industrial settings.
+            </description>
+        </area>
+    </alluvialAreas>
+
+    <creators>
+        <creator id="hopelab">
+            <name>Hopelab</name>
+            <description>
+                Hopelab is a social innovation lab focused on designing science-based technologies to improve the health and well-being of
+                teens and young adults. They are a 501 private operating foundation based in San Francisco, California.
+            </description>
+            <logo src="hopelabLogo" />
+        </creator>
+
+        <creator id="glasslab">
+            <name>Glasslab</name>
+            <description>
+                GlassLab reflects a major shift in the way students learn and acquire knowledge. Students today are expected to learn new skills,
+                such as creative problem solving, collaboration and systems thinking, and master new technologies.
+                GlassLab will address these new challenges by exploring how digital games can be effective environments for learning and make learning
+                more relevant by connecting it with students’ interests.
+            </description>
+            <logo src="glasslabLogo" />
+        </creator>
+
+        <creator id="uwCse">
+            <name>University of Washington Computer Science and Engineering</name>
+            <description>
+                The University of Washington's Computer Science and Engineering department is dedicated to advancing computer science and
+                engineering through research and education.
+            </description>
+            <logo src="uwCseLogo" />
+        </creator>
+
+        <creator id="wubeSoftware">
+            <name>Wube Software</name>
+            <description>
+                Wube Software is the developer of Factorio, a game development company passionate about creating engaging and challenging
+                experiences for players.
+            </description>
+            <logo src="wubeLogo" />
+        </creator>
+
+        <creator id="mojang">
+            <name>Mojang studios</name>
+            <description>
+                Mojang is a Swedish video game developer and publisher. It is best known for developing the popular game "Minecraft."
+
+            </description>
+            <logo src="mojangLogo" />
+        </creator>
+
+        <creator id="microsoft">
+            <name>Microsoft</name>
+            <description>
+                Microsoft Corporation is an American multinational technology company known for developing, licensing, and selling computer
+                software, consumer electronics, and other services.
+            </description>
+            <logo src="microsoftLogo" />
+        </creator>
+
+        <creator id="dragonBox">
+            <name>Kahoot and DragonBox</name>
+            <description>
+                Kahoot in colaboration with DragonBox is a game development studio that focuses on creating educational games to make
+                learning fun and engaging for students of all ages.
+            </description>
+            <logo src="dragonBoxLogo" />
+        </creator>
+    </creators>
+
+    <games>
+        <game id="reMission2" genreRef="gamesForHealth" alluvialAreaRef="healthcare" creatorRef="hopelab">
+            <title>Re-Mission 2</title>
+            <description>
+                Designed for young cancer patients, this game aims to teach them about cancer and its treatment in an engaging way.
+                Players control a nanobot named Roxxi to fight cancer cells.
+            </description>
+            <releaseDate>04.29.2013</releaseDate>
+            <graphics>
+                <coverImage src="reMission2Cover" />
+                <screenshots>
+                    <screenshot src="reMission2Screenshot1" />
+                    <screenshot src="reMission2Screenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+
+        <game id="simCityEDU" genreRef="gamesForEducation" alluvialAreaRef="education" creatorRef="glasslab">
+            <title>SimCityEDU: Pollution Challenge!</title>
+            <description>
+                This educational game challenges players to address pollution issues in a virtual city,
+                teaching environmental concepts and problem-solving skills.
+            </description>
+            <releaseDate>07.11.2013</releaseDate>
+            <graphics>
+                <coverImage src="simCityCover" />
+                <screenshots>
+                    <screenshot src="simCityScreenshot1" />
+                    <screenshot src="simCityScreenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+
+        <game id="foldit" genreRef="gamesForScienceAndResearch" alluvialAreaRef="governmentNgo" creatorRef="uwCse">
+            <title>Foldit</title>
+            <description>
+                Foldit is an online puzzle video game about protein folding.
+                Players can contribute to scientific research by solving complex puzzles related to protein structure and function.
+            </description>
+            <releaseDate>08.05.2008</releaseDate>
+            <graphics>
+                <coverImage src="folditCover" />
+                <screenshots>
+                    <screenshot src="folditScreenshot1" />
+                    <screenshot src="folditScreenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+
+        <game id="factorio" genreRef="gamesForProduction" alluvialAreaRef="industry" creatorRef="wubeSoftware">
+            <title>Factorio</title>
+            <description>
+                Factorio is a real-time strategy game focused on resource management and automation.
+                Players work to build and manage factories, optimizing production processes and dealing with challenges in a complex environment.
+            </description>
+            <releaseDate>25.02.2016</releaseDate>
+            <graphics>
+                <coverImage src="factorioCover" />
+                <screenshots>
+                    <screenshot src="factorioScreenshot1" />
+                    <screenshot src="factorioScreenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+
+        <game id="minecraft" genreRef="gamesForEducation" alluvialAreaRef="education" creatorRef="mojang">
+            <title>Minecraft</title>
+            <description>
+                "Minecraft" is a sandbox game that allows players to build and explore virtual worlds made up of blocks.
+                It offers creative and survival modes, encouraging creativity and collaboration.
+            </description>
+            <releaseDate>11.11.2011</releaseDate>
+            <graphics>
+                <coverImage src="minecraftCover" />
+                <screenshots>
+                    <screenshot src="minecraftScreenshot1" />
+                    <screenshot src="minecraftScreenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+
+        <game id="flightSimulator" genreRef="gamesForTraining" alluvialAreaRef="defense" creatorRef="microsoft">
+            <title>Microsoft Flight Simulator</title>
+            <description>
+                "Microsoft Flight Simulator" is a flight simulation game that offers a realistic and detailed representation of various
+                aircraft and landscapes. It provides an immersive experience for aviation enthusiasts.
+            </description>
+            <releaseDate>18.08.2020</releaseDate>
+            <graphics>
+                <coverImage src="flightSimulatorCover" />
+                <screenshots>
+                    <screenshot src="flightSimulatorScreenshot1" />
+                    <screenshot src="flightSimulatorScreenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+
+        <game id="dragonBoxElements" genreRef="gamesForEducation" alluvialAreaRef="education" creatorRef="dragonBox">
+            <title>DragonBox Elements</title>
+            <description>
+                "DragonBox Elements" is an educational game that teaches geometry concepts in a fun and interactive way.
+                It is designed to make learning math enjoyable for students.
+            </description>
+            <releaseDate>14.05.2014</releaseDate>
+            <graphics>
+                <coverImage src="dragonBoxElementsCover" />
+                <screenshots>
+                    <screenshot src="dragonBoxElementsScreenshot1" />
+                    <screenshot src="dragonBoxElementsScreenshot2" />
+                </screenshots>
+            </graphics>
+        </game>
+    </games>
+</seriousGamesCatalog>
